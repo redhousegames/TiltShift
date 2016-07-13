@@ -88,6 +88,7 @@ a {
   color: #ff7f7f;
   font-weight: 300;
   text-align: center;
+  left:0px;
 }
 
 .lead {
@@ -235,6 +236,13 @@ a {
 .redhouse {
   margin-top: 70px;
   margin-bottom: 30px;
+}
+
+canvas {
+  display:block;
+  position: fixed;
+  pointer-events:none;
+  z-index:1;
 }
 
 html.w-mod-js *[data-ix="title"] {

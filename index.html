@@ -13,20 +13,12 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
   <link rel="stylesheet" type="text/css" href="css/tiltshift.webflow.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
-  <script>
-    WebFont.load({
-  google: {
-    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]
-  }
-});
-  </script>
-  <script type="text/javascript" src="js/modernizr.js"></script>
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
   <link rel="apple-touch-icon" href="images/WebApp.png">
 </head>
 
 <body class="dark">
+  <canvas id="canvas"></canvas>
   <div data-collapse="medium" data-animation="default" data-duration="400" data-contain="1" class="w-nav dark">
     <div class="w-container">
       <nav role="navigation" class="w-nav-menu"><a href="#" class="w-nav-link dark">About</a><a href="presskit/tiltShift/index.html" class="w-nav-link dark">PressKit</a><a href="#" class="w-nav-link dark">Contact</a></nav>
@@ -195,8 +187,18 @@
   <div class="footer">
     <p class="footer-text">Copyright © 2016 Red House Games. Music by <a href="http://www.dreade.com/nosoap/">DST</a>.</p>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+  google: {
+    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]
+  }
+});
+  </script>
+  <script type="text/javascript" src="js/modernizr.js"></script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
+  <script type="text/javascript" src="js/particles.js"></script>
   <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
